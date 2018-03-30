@@ -55,14 +55,14 @@ const myNewMaps = set(compose(lensIndex(1), lensMap('foo')), 'bar', myMaps);
 `myNewMaps` is a new array where the first and third [`Map`] objects are
 unaffected and referentially equal to the first and third [`Map`] objects in
 `myMaps`. The second [`Map`] object in `myNewMaps` is a brand new [`Map`] with
-a key `'foo'` set to a value `'bar'`. See [`src/lens-map.test.ts`] for a
+a key `'foo'` set to a value `'bar'`. See [`src/lens-map.test.ts`][test] for a
 working example of lens composition.
 
 ## Caveats
 
 * This package only provides a lens. Functions such as `evolve` are unaffected.
 * There is no analog for [`dissoc`]. As far as I'm aware there is no way to
-  drop the value focused by a lens with any ramda functions.
+  drop the value focused by a lens with any [ramda] functions.
 
 ## License
 
