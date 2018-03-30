@@ -1,0 +1,42 @@
+{
+  "name": "ramda-lens-map",
+  "version": "0.0.0",
+  "description": "A lens for ramda which lets you focus on a key in a native Map.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "test": "jest --forceExit --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knpwrs/ramda-lens-native.git"
+  },
+  "keywords": [
+    "ramda",
+    "lens",
+    "map"
+  ],
+  "author": "Kenneth Powers <ken@kenpowers.net> (https://knpw.rs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knpwrs/ramda-lens-native/issues"
+  },
+  "homepage": "https://github.com/knpwrs/ramda-lens-native#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/ramda": "^0.25.21",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-typescript": "^0.11.0",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.2",
+    "typescript": "^2.8.1",
+    "typescript-eslint-parser": "^14.0.0"
+  }
+}
