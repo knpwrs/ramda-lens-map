@@ -60,7 +60,7 @@ working example of lens composition.
 
 ## Caveats
 
-* This package only provides a lens. Functions such as `evolve` are unaffected.
+* This package only provides a lens. Functions such as [`evolve`] are unaffected.
 * There is no analog for [`dissoc`]. As far as I'm aware there is no way to
   drop the value focused by a lens with any [ramda] functions.
 
