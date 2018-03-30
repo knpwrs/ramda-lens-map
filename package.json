@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A lens for ramda which lets you focus on a key in a native Map.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "commit": "git-cz",
     "prepack": "npm run build",
