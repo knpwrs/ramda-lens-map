@@ -4,6 +4,7 @@
   "description": "A lens for ramda which lets you focus on a key in a native Map.",
   "main": "dist/index.js",
   "scripts": {
+    "commit": "git-cz",
     "prepack": "npm run build",
     "build": "tsc",
     "lint": "eslint src --ext .ts",
@@ -30,6 +31,8 @@
   "devDependencies": {
     "@types/jest": "^22.2.2",
     "@types/ramda": "^0.25.21",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.9.0",
@@ -38,5 +41,10 @@
     "ts-jest": "^22.4.2",
     "typescript": "^2.8.1",
     "typescript-eslint-parser": "^14.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
