@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/knpwrs/ramda-lens-native#readme",
   "dependencies": {
-    "ramda": "^0.25.0"
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
     "@types/jest": "^23.3.10",
-    "@types/ramda": "^0.25.21",
+    "@types/ramda": "^0.25.42",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.9.0",
