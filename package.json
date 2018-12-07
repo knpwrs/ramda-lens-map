@@ -9,7 +9,7 @@
     "prepack": "npm run build",
     "build": "tsc",
     "lint": "eslint src --ext .ts",
-    "test": "jest --forceExit --coverage --verbose"
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
