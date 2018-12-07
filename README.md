@@ -6,7 +6,7 @@
 [![Build Status](https://img.shields.io/travis/knpwrs/ramda-lens-map.svg)](https://travis-ci.org/knpwrs/ramda-lens-map)
 [![Npm Version](https://img.shields.io/npm/v/ramda-lens-map.svg)](https://www.npmjs.com/package/ramda-lens-map)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![TypeScript 3](https://img.shields.io/badge/TypeScript-3-blue.svg)](http://shields.io/)
 [![Badges](https://img.shields.io/badge/badges-8-orange.svg)](http://shields.io/)
 
 A lens for [ramda] which lets you focus on a key in a [`Map`].
