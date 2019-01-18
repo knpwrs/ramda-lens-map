@@ -43,7 +43,7 @@
     "jest": "^23.6.0",
     "ts-jest": "^23.10.5",
     "typescript": "^2.8.1",
-    "typescript-eslint-parser": "^21.0.2"
+    "typescript-eslint-parser": "^22.0.0"
   },
   "config": {
     "commitizen": {
