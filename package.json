@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/knpwrs/ramda-lens-native#readme",
   "dependencies": {
-    "ramda": "^0.26.1"
+    "ramda": "^0.27.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
